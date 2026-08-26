@@ -108,6 +108,44 @@ En este repositorio encontrarás ejercicios relacionados con:
 
 
 
+\## Tecnologías utilizadas
+
+
+
+\- Python 3
+
+\- Git
+
+\- GitHub
+
+\- PyCharm
+
+
+
+\## Avance del aprendizaje
+
+
+
+\- \[x] Variables
+
+\- \[x] Operadores
+
+\- \[x] Condicionales
+
+\- \[x] Ciclos
+
+\- \[x] Funciones
+
+\- \[x] Listas
+
+\- \[x] Diccionarios
+
+\- \[ ] Programación Orientada a Objetos
+
+\- \[ ] Excepciones
+
+
+
 \---
 
 
