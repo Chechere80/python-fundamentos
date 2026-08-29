@@ -18,7 +18,7 @@ def conversor(moneda_actual, valor_moneda_actual, moneda_convertir):
             if moneda_convertir == 1:
                 print(f'Si necesitas EUR{valor_moneda_actual} equivalen a ${valor_moneda_actual * 4000}')
             elif moneda_convertir == 2:
-                print(f'Si necesitas EUR{valor_moneda_actual} equivalen a {valor_moneda_actual * 6.93}')
+                print(f'Si necesitas EUR{valor_moneda_actual} equivalen a ¥{valor_moneda_actual * 6.93}')
             elif moneda_convertir == 3:
                 print(f'Si necesitas EUR{valor_moneda_actual} equivalen a £{valor_moneda_actual * 0.83}')
             else:

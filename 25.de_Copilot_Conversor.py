@@ -19,7 +19,10 @@ if moneda_requerida not in (1,2):
 else:
     cantidad_requerida = float(input("Ingrese la cantidad requerida: "))
     moneda_actual = int(input("Ingresa a la moneda que quieres convertir: \n1. COP\n2. GBP\n3. Yuan: "))
-    if moneda_requerida == 1:
+
+    if moneda_actual not in (1, 2, 3):
+        print("Escoge tu moneda correcta")
+    elif moneda_requerida == 1:
         dolar = round(cantidad_requerida * tasas["USD"][moneda_actual],2)
         print(f'La cantidad que requieres es de {dolar}')
     else:
