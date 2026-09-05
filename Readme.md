@@ -152,3 +152,11 @@ En este repositorio encontrarás ejercicios relacionados con:
 
 Si este repositorio te resulta útil, puedes utilizar los ejercicios como referencia para practicar Python desde cero.
 
+
+
+\## Prueba de sincronización
+
+
+
+Esta línea se agregó para practicar git pull.
+
