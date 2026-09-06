@@ -1,8 +1,11 @@
-o = "Abrite del parche"
-n = input("Ingresa tu nombre: ")
-a = input("Ingresa tu apellido: ")
-e = input("Ingresa tu edad: ")
+#Validador de edad para admisión
 
-if int(e) >= 18:
-    print (f"Bienvenido {n} {a}")
-else: print(o)
+rechazo = "Por tu edad, no puedes ingresar acá"
+nombre = input("Ingresa tu nombre: ")
+apellido = input("Ingresa tu apellido: ")
+edad = input("Ingresa tu edad: ")
+
+if int(edad) >= 18:
+    print (f'Bienvenido, {nombre} {apellido}')
+else:
+    print(rechazo)
