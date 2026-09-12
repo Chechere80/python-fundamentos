@@ -1,6 +1,6 @@
 #ingrese números
-a = int(input("número 1: "))
-b = int(input("numero 2: "))
+a = int(input("Ingrese el primer número: "))
+b = int(input("Ingrese el segundo numero: "))
 
 #operar e imprimir resultados
 if int(a) > int(b):
@@ -12,6 +12,6 @@ elif int(a) < int(b):
 else:
     print("Los números son iguales")
 
-    #print(f'El termino a evaluar: {a} es un dato de tipo: {type(a)}')
+
 
 
